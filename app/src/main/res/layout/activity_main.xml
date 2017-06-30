@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context="com.tdt.android.trieuphumobile.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="16dp"
+        android:layout_height="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <RelativeLayout
+        android:id="@+id/tb_1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/score_board">
+
+        <ImageView
+            android:id="@+id/clock_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/clock_icon"
+            android:text="20"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/user" />
+
+        <ImageView
+            android:id="@+id/money_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/money"
+            android:src="@drawable/money" />
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="200"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/question_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/question_board"
+            android:padding="5dp"
+            android:text=" Câu hỏi số 1 "
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/question_board"
+            android:padding="10dp"
+            android:text="Đâu là tên của một hãng điện thoại di động?"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/optionA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/normal_question"
+            android:gravity="center"
+            android:text="A: Android"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/optionB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/normal_question"
+            android:gravity="center"
+            android:text="B: HTC"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/optionC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/normal_question"
+            android:gravity="center"
+            android:text="C: Chrome"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/optionD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/normal_question"
+            android:gravity="center"
+            android:text="D: Mobifone"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="32dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/stop"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/stop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/help_call"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/call" />
+
+            <ImageView
+                android:id="@+id/turn_off_call"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/x"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/help_50_50"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_50_50" />
+
+            <ImageView
+                android:id="@+id/turn_off_50_50"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/x"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/help_ask_audience"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ask_audience" />
+
+            <ImageView
+                android:id="@+id/turn_off_ask"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/x"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/help_change_question"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/change_question" />
+
+            <ImageView
+                android:id="@+id/turn_off_change"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/x"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </TableRow>
+
+
+</RelativeLayout>
