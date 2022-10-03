@@ -45,185 +45,204 @@
             android:src="@drawable/change_question" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/ques15"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="15  150.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="50px"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ques15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="15  150.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/ques14"
+        <TextView
+            android:id="@+id/ques14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="14  85.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="13  60.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="12  40.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="11  30.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="10  22.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="9    14.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="8    10.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="7    6.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="6    3.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="5    2.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="4    1.000"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="3    600"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="2    400"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ques1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:paddingLeft="65dp"
+            android:paddingTop="2dp"
+            android:text="1    200"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#DFA119"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="14  85.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="13  60.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="12  40.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="11  30.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="10  22.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="9    14.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="8    10.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="7    6.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="6    3.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="5    2.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="4    1.000"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="3    600"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="2    400"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ques1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
-        android:paddingLeft="65dp"
-        android:paddingTop="2dp"
-        android:text="1    200"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#DFA119"
-        android:textStyle="bold" />
-
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnBackGuide"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40px"
+            android:background="@drawable/back" />
+    </RelativeLayout>
 </LinearLayout>

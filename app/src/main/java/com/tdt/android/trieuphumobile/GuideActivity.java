@@ -1,11 +1,14 @@
 package com.tdt.android.trieuphumobile;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -38,6 +41,7 @@ public class GuideActivity extends AppCompatActivity {
     private Handler handler2;
     private Handler handler3;
     private Handler handler4;
+    private Button btnBack;
 
     private int i = 0;
     private int k = 0;
@@ -54,6 +58,14 @@ public class GuideActivity extends AppCompatActivity {
     }
 
     private void initControls() {
+        btnBack = (Button) findViewById(R.id.btnBackGuide);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(GuideActivity.this, StartActivity.class));
+            }
+        });
+
         background = new MediaManager(GuideActivity.this);
         background.openMedia(R.raw.score, true);
         guide = new MediaManager(GuideActivity.this);
